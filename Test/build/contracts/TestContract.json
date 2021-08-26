@@ -1,0 +1,214 @@
+{
+  "contractName": "TestContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/TestContract.sol\":\"TestContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/TestContract.sol\":{\"keccak256\":\"0xb8ef0b52375fa176c24d72aa398fb5170d6f94fb4aac25bc7d716202f3f2b804\",\"urls\":[\"bzz-raw://be1cb7a495d7eeade6b6a5ceec7f4665a7a0cf1e2c6424bc62bde7f14d91d3e9\",\"dweb:/ipfs/QmWsufiKfZyffDfWX6ry28XLe4gKmbAp2GHTn76huinYvh\"]}},\"version\":1}",
+  "bytecode": "0x60806040526017600055348015601457600080fd5b50603f8060226000396000f3fe6080604052600080fdfea2646970667358221220d91c7c5f82d592c82821ee772304c9deae278065051bce6e3a0f94f46349597964736f6c63430007000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220d91c7c5f82d592c82821ee772304c9deae278065051bce6e3a0f94f46349597964736f6c63430007000033",
+  "immutableReferences": {},
+  "sourceMap": "27:54:1:-:0;;;75:2;54:23;;27:54;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "27:54:1:-:0;;;;;",
+  "source": "pragma solidity ^0.7.0;\r\n\r\ncontract TestContract {\r\n  uint stateVariable = 23;\r\n}",
+  "sourcePath": "C:\\Users\\rc84e\\OneDrive\\Escritorio\\DEV\\#GITHUB\\dApps\\Test\\contracts\\TestContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/TestContract.sol",
+    "exportedSymbols": {
+      "TestContract": [
+        38
+      ]
+    },
+    "id": 39,
+    "license": null,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "TestContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "mutability": "mutable",
+            "name": "stateVariable",
+            "nodeType": "VariableDeclaration",
+            "overrides": null,
+            "scope": 38,
+            "src": "54:23:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "54:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "3233",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "75:2:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_23_by_1",
+                "typeString": "int_const 23"
+              },
+              "value": "23"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 39,
+        "src": "27:54:1"
+      }
+    ],
+    "src": "0:81:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/TestContract.sol",
+      "exportedSymbols": {
+        "TestContract": [
+          38
+        ]
+      },
+      "license": null
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.7",
+            ".0"
+          ]
+        },
+        "id": 34,
+        "name": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            38
+          ],
+          "name": "TestContract",
+          "scope": 39
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "mutability": "mutable",
+              "name": "stateVariable",
+              "overrides": null,
+              "scope": 38,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 35,
+                "name": "ElementaryTypeName",
+                "src": "54:4:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "3233",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 23",
+                  "value": "23"
+                },
+                "id": 36,
+                "name": "Literal",
+                "src": "75:2:1"
+              }
+            ],
+            "id": 37,
+            "name": "VariableDeclaration",
+            "src": "54:23:1"
+          }
+        ],
+        "id": 38,
+        "name": "ContractDefinition",
+        "src": "27:54:1"
+      }
+    ],
+    "id": 39,
+    "name": "SourceUnit",
+    "src": "0:81:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.0+commit.9e61f92b.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-08-26T09:08:17.147Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
